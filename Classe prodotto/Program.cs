@@ -22,10 +22,24 @@ namespace Classe_prodotto
                 this.nome = nome;
                 this.prezzo = prezzo;
             }
-
+            public string ottieninome()
+            {
+                return nome;
+            }
+            public double ottieniprezzo()
+            {
+                return prezzo;
+            }
         }
+
+    
         static void Main(string[] args)
         {
+            Prodotto prodotto1 = new Prodotto("gomma", 3);
+            Prodotto prodotto2 = new Prodotto("matita", 2.50);
+            Console.WriteLine("Prodotto 1 - Nome: {0}. Prezzo: {1}", prodotto1.ottieninome(), prodotto1.ottieniprezzo());
+            Console.WriteLine("Prodotto 2 - Nome: {0}. Prezzo: {1}", prodotto2.ottieninome(), prodotto2.ottieniprezzo());
+            Console.ReadLine();
         }
     }
 }
