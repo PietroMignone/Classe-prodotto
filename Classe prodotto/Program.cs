@@ -17,6 +17,12 @@ namespace Classe_prodotto
                 nome = "";
                 prezzo = 0.0;
             }
+            public Prodotto(string nome, double prezzo)
+            {
+                this.nome = nome;
+                this.prezzo = prezzo;
+                this.prodotto = prodotto;
+            }
 
         }
         static void Main(string[] args)
