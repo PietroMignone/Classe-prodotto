@@ -8,6 +8,17 @@ namespace Classe_prodotto
 {
     internal class Program
     {
+        class Prodotto
+        {
+            private string nome;
+            private double prezzo;
+            public Prodotto()
+            {
+                nome = "";
+                prezzo = 0.0;
+            }
+
+        }
         static void Main(string[] args)
         {
         }
