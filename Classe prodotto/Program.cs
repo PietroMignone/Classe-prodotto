@@ -21,7 +21,6 @@ namespace Classe_prodotto
             {
                 this.nome = nome;
                 this.prezzo = prezzo;
-                this.prodotto = prodotto;
             }
 
         }
